@@ -1,3 +1,6 @@
+# Projet Simple_ORF_finder
+
+## Options de Simple_ORF_finder
 usage: Simple_ORF_finder.py [-h] -i INFASTA -c COUNTTABLE -t CODONSTABLE -o OUTGFF -f OUTFASTA [-r MATRICERBS] [-s MINORFSIZE]
                             [-u ORFTHRLD] [-b RBSMOTIFTHRLD] [-e RBSREGION RBSREGION] [-d DISPLAYORF DISPLAYORF]
 
@@ -30,7 +33,7 @@ options:
                         Affiche les ORF dans un interval donné (2 valeurs séparées par un espace: début fin)
 
 
-
-Ligne de commande de test:
-
-./Simple_ORF_finder.py -i datas/GCF_000009045.1_ASM904v1_partial_genomic.fna -c datas/E_coli_K12_MG1655_CDS_table -f found_ORF_SimpleORF.fasta -t datas/code_genetique_bacteries -r datas/matrice_GGAGA_RBS_E_coli -o test2.gff -d 550 12000 &
+## Ligne de commande de test:
+```
+./Simple_ORF_finder.py -i datas/GCF_000009045.1_ASM904v1_partial_genomic.fna -c datas/E_coli_K12_MG1655_CDS_table -f found_ORF_SimpleORF.fasta -t datas/code_genetique_bacteries -r datas/matrice_GGAGA_RBS_E_coli -o test2.gff -d 550 12000
+```
