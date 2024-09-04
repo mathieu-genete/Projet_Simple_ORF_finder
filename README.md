@@ -1,6 +1,7 @@
 # Projet Simple_ORF_finder
 
 ## Options de Simple_ORF_finder
+```
 usage: Simple_ORF_finder.py [-h] -i INFASTA -c COUNTTABLE -t CODONSTABLE -o OUTGFF -f OUTFASTA [-r MATRICERBS] [-s MINORFSIZE]
                             [-u ORFTHRLD] [-b RBSMOTIFTHRLD] [-e RBSREGION RBSREGION] [-d DISPLAYORF DISPLAYORF]
 
@@ -31,7 +32,7 @@ options:
                         défaut [5,15]
   -d DISPLAYORF DISPLAYORF, --displayorf DISPLAYORF DISPLAYORF
                         Affiche les ORF dans un interval donné (2 valeurs séparées par un espace: début fin)
-
+```
 
 ## Ligne de commande de test:
 ```
